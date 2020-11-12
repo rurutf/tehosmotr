@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Техосмотр автомототранспорта</title>
+    <title>Оператор технического осмотра ИП Горбовской Константин Михайлович</title>
+    <meta name="description" content="Пройти техосмотр в г. Южно-Сахалинск">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="icomoon/style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <section class="main">
         <div class="container">
-            <div class="header-inner">
+            <div class="main-inner">
                 <h2 class="subtitle">
                     Оператор технического осмотра
                 </h2>
@@ -22,33 +23,39 @@
                     ИП Горбовской Константин Михайлович
                 </h1>
                 <span>
-                    Номер в реестре ОТО 09484 | ОГРНИП 304650122300130
+                    Номер в реестре ОТО 09484<br>ОГРНИП 304650122300130
                 </span>
             </div>
         </div>
-    </header>
-
-    <section class="document">
-        <div class="container">
-            <img class="doc-img" src="img/attestat.jpg" alt="">
-        </div>
     </section>
-
-
     <section class="content">
         <div class="container">
             <div class="content-inner">
                 <div class="content__text">
                     <h2 class="content__title">Чем мы занимаемся</h2>
                     <p>
-                        Мы делаем то то и то то... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
-                        dolor suscipit repudiandae. Mollitia, aliquam veritatis debitis odio, modi accusantium esse
-                        sint possimus expedita, exercitationem sunt?
+                        <strong class="text-black">Техосмотр</strong><br>
+                        У нас вы можете пройти техосмотр авто и мото транспорта. Приезжайте, и мы всё сделаем как надо!
                     </p>
                     <p>
-                        <strong class="text-black">Автотехосмотр</strong><br>
-                        <span>Тут про автотехосмотр написано</span>
+                        <strong class="text-black">Автострахование</strong><br>
+                        <span>А также, прям в нашем центре можно застраховать автомобиль по ОСАГО или КАСКО у наших
+                            партнеров.</span>
                     </p>
+                    <div class="document">
+                        <a data-modal class="document-link">
+                            <div class="document__block" data-aos="fade-up" data-aos-duration="500">
+                                <span class="icon-wrap left">
+                                    <span class="icon-file-text"></span>
+                                </span>
+                                <div>
+                                    <p class="document__text">
+                                        Смотреть аттестат
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="content__img">
                     <img class="img-teh" src="img/tehosmotr.jpg" alt="">
@@ -57,24 +64,17 @@
         </div>
     </section>
 
+    <div class="modal">
+        <div data-close class="modal__close">&times;</div>
+        <img class="modal__img" src="img/attestat.jpg" alt="">
+    </div>
+
     <section class="contacts">
         <div class="container">
             <h2 class="content__title center">
                 Контакты
             </h2>
             <div class="row">
-                <div class="contacts__block" data-aos="fade-up" data-aos-duration="500">
-                    <span class="icon-wrap">
-                        <span class="icon-home"></span>
-                    </span>
-                    <h3>
-                        Адрес
-                    </h3>
-                    <p>
-                        г. Южно-Сахалинск, ул. Песочная д. 6/1
-                    </p>
-                </div>
-
                 <div class="contacts__block" data-aos="fade-up" data-aos-duration="500">
                     <span class="icon-wrap">
                         <span class="icon-phone"></span>
@@ -87,7 +87,19 @@
                         </a></p>
                 </div>
 
-                <div class="contacts__block" data-aos="fade-up" data-aos-duration="500">
+                <div class="contacts__block" data-aos="fade-up" data-aos-duration="800">
+                    <span class="icon-wrap">
+                        <span class="icon-home"></span>
+                    </span>
+                    <h3>
+                        Адрес
+                    </h3>
+                    <p>
+                        г. Южно-Сахалинск,<br>ул. Песочная д. 6/1
+                    </p>
+                </div>
+
+                <div class="contacts__block" data-aos="fade-up" data-aos-duration="1100">
                     <span class="icon-wrap">
                         <span class="icon-clock-o"></span>
                     </span>
@@ -100,7 +112,7 @@
                     </p>
                 </div>
 
-                <div class="contacts__block" data-aos="fade-up" data-aos-duration="500">
+                <div class="contacts__block" data-aos="fade-up" data-aos-duration="1300">
                     <span class="icon-wrap">
                         <span class="icon-envelope"></span>
                     </span>
@@ -122,12 +134,14 @@
         <div class="container">
             <div class="footer-inner">
                 <p class="footer__text">
-                    Copyright ©2020 All rights reserved | This template is made with
+                    ©2020 ИП Горбовской Константин Михайлович<br>
+                    Сделано в <a href="https://gigonom.com">Gigonom</a>
                 </p>
             </div>
         </div>
     </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
 </body>
 
