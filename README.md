@@ -1,7 +1,8 @@
 Лендинг-страница
 Используются:
 - aos js;
-- icoMoon.
+- icoMoon;
+- нативный JS.
 
 
 Ссылка на страницу: https://rurutf.github.io/tehosmotr
